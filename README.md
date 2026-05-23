@@ -1,0 +1,157 @@
+# Siemens Healthineers (siemens-healthineers)
+
+Siemens Healthineers AG is a German medical technology company (XETRA SHL) covering medical imaging, laboratory diagnostics, point-of-care testing, advanced therapies, and cancer care (following the April 2021 Varian Medical Systems acquisition for USD 16.4 billion). Its digital surface is anchored by the teamplay digital health platform, the Digital Marketplace, syngo.via OpenApps, and the Frontier Development Kit, with developer access offered through a gated teamplay developer portal that exposes APIs for single sign-on, licensing, user roles and permissions, the teamplay receiver plug-in, DICOM image access, customer-specific report submission, and status indicator notifications. No public OpenAPI specifications are published; the API catalog and reference documentation sit behind teamplay developer account authentication.
+
+**URL:** [Visit APIs.yml URL](https://raw.githubusercontent.com/api-evangelist/siemens-healthineers/refs/heads/main/apis.yml)
+
+## Scope
+
+- **Type:** Contract
+- **Position:** Consuming
+- **Access:** 3rd-Party
+
+## Tags
+
+Healthcare, Medical Imaging, Laboratory Diagnostics, Cancer Care, Radiation Oncology, DICOM, Digital Health, Healthcare IT, Medical Devices, Teamplay
+
+## Segments
+
+Medical Imaging, Laboratory Diagnostics, Cancer Care, Healthcare IT, Digital Health Platforms
+
+## Timestamps
+
+- **Created:** 2026-05-23
+- **Modified:** 2026-05-23
+
+## APIs
+
+### teamplay Single Sign-On API
+Authentication and identity federation surface that lets partner applications running on the teamplay digital health platform, syngo.via OpenApps, and Cios mobile C-arm systems sign users in using their teamplay credentials.
+
+**Human URL:** [Digital Marketplace for Partners](https://www.siemens-healthineers.com/en-us/digital-health-solutions/digital-marketplace-for-partners)
+
+**Tags:** Authentication, Single Sign-On, Identity, Teamplay, Healthcare
+
+### teamplay Licensing API
+Licensing management surface used by partner applications to validate, provision, and reconcile subscription entitlements within the teamplay Cloud Platform and syngo.via OpenApps environments.
+
+**Human URL:** [Digital Marketplace for Partners](https://www.siemens-healthineers.com/en-us/digital-health-solutions/digital-marketplace-for-partners)
+
+**Tags:** Licensing, Entitlements, Subscriptions, Teamplay, Healthcare
+
+### teamplay User Roles and Permissions API
+User management surface that exposes user roles and permission assignments to partner applications on the teamplay digital health platform, so partner solutions can align in-application access control with the customer's teamplay tenancy.
+
+**Human URL:** [Digital Marketplace for Partners](https://www.siemens-healthineers.com/en-us/digital-health-solutions/digital-marketplace-for-partners)
+
+**Tags:** Authorization, Users, Roles, Permissions, Teamplay, Healthcare
+
+### teamplay Receiver Plug-in API
+Plug-in surface for the teamplay receiver, the on-premises agent that collects operational and clinical telemetry from imaging devices and transmits it to the teamplay Cloud Platform.
+
+**Human URL:** [Digital Marketplace for Partners](https://www.siemens-healthineers.com/en-us/digital-health-solutions/digital-marketplace-for-partners)
+
+**Tags:** Data Collection, Telemetry, On-Premises Agent, Teamplay, Healthcare
+
+### teamplay DICOM Image Access API
+Imaging access surface enabling partner applications to retrieve DICOM studies and instances stored in the teamplay digital health platform, supporting secure peer sharing and processing use cases.
+
+**Human URL:** [Digital Marketplace for Partners](https://www.siemens-healthineers.com/en-us/digital-health-solutions/digital-marketplace-for-partners)
+
+**Tags:** DICOM, Medical Imaging, Images, Teamplay, Healthcare
+
+### teamplay Reports and Results Submission API
+Submission surface allowing partner applications to push customer-specific reports and clinical results back into the teamplay digital health platform.
+
+**Human URL:** [Digital Marketplace for Partners](https://www.siemens-healthineers.com/en-us/digital-health-solutions/digital-marketplace-for-partners)
+
+**Tags:** Reports, Results, Clinical Data, Teamplay, Healthcare
+
+### teamplay Status Indicator Notifications API
+Notification surface that lets partner applications publish status indicators (operational state, health, processing progress) into the teamplay digital health platform.
+
+**Human URL:** [Digital Marketplace for Partners](https://www.siemens-healthineers.com/en-us/digital-health-solutions/digital-marketplace-for-partners)
+
+**Tags:** Notifications, Status, Operations, Teamplay, Healthcare
+
+### syngo.via Frontier Development Kit
+Research-oriented SDK that lets clinicians, researchers, and developers turn research ideas into deployable image-post-processing applications inside syngo.via. Distributed through the Digital Marketplace and installed into syngo.via OpenApps.
+
+**Human URL:** [syngo.via Frontier](https://www.siemens-healthineers.com/digital-health-solutions/syngovia-frontier)
+
+**Tags:** SDK, Research, Medical Imaging, Post-Processing, syngo.via, Healthcare
+
+### syngo.via OpenApps Platform
+Application platform inside syngo.via that hosts third-party and Siemens Healthineers research and clinical apps distributed through the Digital Marketplace. Apps can be trialed commitment-free for 90 days.
+
+**Human URL:** [syngo.via OpenApps](https://www.siemens-healthineers.com/medical-imaging-it/syngo-carbon-products/openapps)
+
+**Tags:** Platform, Applications, Medical Imaging, syngo.via, Healthcare
+
+### Siemens Healthineers Digital Marketplace
+Curated catalog distributing Siemens Healthineers and partner clinical and operational applications across the teamplay digital health platform, syngo.via OpenApps, and Cios mobile C-arm systems. All applications are security-scanned and run inside the Healthineers privacy-by-design infrastructure. Available in 60+ countries.
+
+**Human URL:** [Digital Marketplace](https://www.siemens-healthineers.com/digital-health-solutions/digital-marketplace)
+
+**Base URL:** `https://marketplace.teamplay.siemens.com/`
+
+**Tags:** Marketplace, Catalog, Applications, Healthcare
+
+### K2s Kubernetes Distribution for Windows Hosts
+Open-source Kubernetes distribution built specifically for Windows hosts, published from the Siemens-Healthineers GitHub org.
+
+**Human URL:** [github.com/Siemens-Healthineers/K2s](https://github.com/Siemens-Healthineers/K2s)
+
+**Tags:** Kubernetes, Windows, Infrastructure, Open Source, PowerShell
+
+### SHIELD-DAVE Medical Device Cybersecurity Platform
+PHP-based platform focused on medical device cybersecurity and US FDA compliance workflows.
+
+**Human URL:** [github.com/Siemens-Healthineers/SHIELD-DAVE](https://github.com/Siemens-Healthineers/SHIELD-DAVE)
+
+**Tags:** Cybersecurity, Medical Devices, FDA Compliance, Open Source, PHP
+
+### ETWAnalyzer Command Line Tool
+C# command-line tool for analyzing Event Tracing for Windows (ETW) capture files using a query syntax.
+
+**Human URL:** [github.com/Siemens-Healthineers/ETWAnalyzer](https://github.com/Siemens-Healthineers/ETWAnalyzer)
+
+**Tags:** CLI, Diagnostics, Performance, Windows, Open Source, C#
+
+### Patch-CLIP Embedding Model
+Python research project extending the CLIP architecture with patch-level embeddings for image understanding.
+
+**Human URL:** [github.com/Siemens-Healthineers/patch-clip](https://github.com/Siemens-Healthineers/patch-clip)
+
+**Tags:** Machine Learning, Embeddings, Medical Imaging, Research, Open Source, Python
+
+## Common Properties
+
+- [Website](https://www.siemens-healthineers.com/)
+- [Developer Portal (US)](https://devportal.us.api.teamplay.siemens-healthineers.com/)
+- [Developer Portal (Frontier)](https://developer.frontier.api.teamplay.siemens-healthineers.com/)
+- [Sign Up](https://devportal.us.api.teamplay.siemens-healthineers.com/signup)
+- [Sign In](https://devportal.us.api.teamplay.siemens-healthineers.com/signin)
+- [Marketplace](https://marketplace.teamplay.siemens.com/)
+- [Partner Program](https://www.siemens-healthineers.com/en-us/digital-health-solutions/digital-marketplace-for-partners)
+- [Digital Health Platform (teamplay)](https://www.siemens-healthineers.com/digital-health-solutions/digital-solutions-overview/service-line-managment-solutions/teamplay)
+- [GitHub Org](https://github.com/Siemens-Healthineers)
+- [Press](https://www.siemens-healthineers.com/press)
+- [Investor Relations](https://www.siemens-healthineers.com/investor-relations)
+- [Vocabulary](vocabulary/siemens-healthineers-vocabulary.yml)
+- [JSON-LD Context](json-ld/siemens-healthineers-context.jsonld)
+
+## Notable Absences
+
+- No public OpenAPI / Swagger specifications — the API catalog is gated behind a teamplay developer account at `devportal.us.api.teamplay.siemens-healthineers.com`.
+- No public SDKs in language package registries from the Siemens-Healthineers GitHub org. The 13 public repos are mostly upstream contributions (SW360, fossology, NUnit) plus internal tooling (K2s, SHIELD-DAVE, ETWAnalyzer).
+- No public pricing page for teamplay or Digital Marketplace partner subscriptions.
+- No public status page for the teamplay digital health platform.
+- No public changelog or RSS feed for API or platform releases.
+- No webhooks documentation publicly visible.
+- No published rate-limit policy.
+- The Frontier Development Kit is referenced but not distributed via a public download or package registry — access is gated through the syngo.via Frontier program.
+
+## Maintainers
+
+- Kin Lane (kin@apievangelist.com)

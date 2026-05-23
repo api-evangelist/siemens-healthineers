@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "dicom": "http://dicom.nema.org/resources/ontology/DCM/",
+    "fhir": "http://hl7.org/fhir/",
+    "shl": "https://www.siemens-healthineers.com/vocab#",
+
+    "SiemensHealthineers": {
+      "@id": "shl:SiemensHealthineers",
+      "@type": "schema:MedicalOrganization"
+    },
+
+    "TeamplayPlatform": "shl:TeamplayPlatform",
+    "DigitalMarketplace": "shl:DigitalMarketplace",
+    "SyngoVia": "shl:SyngoVia",
+    "SyngoViaOpenApps": "shl:SyngoViaOpenApps",
+    "SyngoViaFrontier": "shl:SyngoViaFrontier",
+    "FrontierDevelopmentKit": "shl:FrontierDevelopmentKit",
+    "TeamplayReceiver": "shl:TeamplayReceiver",
+    "CiosMobileCArm": "shl:CiosMobileCArm",
+
+    "TeamplayApplication": "shl:TeamplayApplication",
+    "PartnerApplication": "shl:PartnerApplication",
+    "ResearchApplication": "shl:ResearchApplication",
+    "ClinicalApplication": "shl:ClinicalApplication",
+
+    "ARIACore": "shl:ARIACore",
+    "Eclipse": "shl:Eclipse",
+    "Velocity": "shl:Velocity",
+    "Noona": "shl:Noona",
+
+    "DICOMStudy": {
+      "@id": "dicom:000110D9",
+      "@type": "schema:MedicalImagingTechnique"
+    },
+    "DICOMInstance": "dicom:Instance",
+    "ImagingModality": "schema:MedicalImagingTechnique",
+    "RadiationDose": "shl:RadiationDose",
+    "ScanProtocol": "shl:ScanProtocol",
+    "ClinicalReport": "schema:MedicalScholarlyArticle",
+
+    "HealthcareProvider": "schema:MedicalOrganization",
+    "SolutionPartner": "schema:Organization",
+    "Researcher": "schema:Person",
+    "Developer": "schema:Person",
+    "Patient": "schema:Patient",
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "identifier": "schema:identifier",
+    "provider": "schema:provider",
+    "manufacturer": "schema:manufacturer",
+    "softwareVersion": "schema:softwareVersion",
+    "operatingSystem": "schema:operatingSystem",
+    "applicationCategory": "schema:applicationCategory",
+    "availableInCountry": "schema:availableInCountry",
+    "datePublished": "schema:datePublished",
+    "dateModified": "schema:dateModified",
+
+    "Integration": "shl:Integration",
+    "SingleSignOn": "shl:SingleSignOn",
+    "Licensing": "shl:Licensing",
+    "UserRolesPermissions": "shl:UserRolesPermissions",
+    "ReceiverPlugin": "shl:ReceiverPlugin",
+    "DICOMImageAccess": "shl:DICOMImageAccess",
+    "ReportsResultsSubmission": "shl:ReportsResultsSubmission",
+    "StatusNotifications": "shl:StatusNotifications",
+
+    "Deployment": "shl:Deployment",
+    "OnPremise": "shl:OnPremise",
+    "OnEdge": "shl:OnEdge",
+    "Cloud": "shl:Cloud",
+
+    "DeveloperPortal": "shl:DeveloperPortal",
+    "PartnerProgram": "shl:PartnerProgram",
+    "APIKey": "shl:APIKey",
+    "TeamplayDeveloperAccount": "shl:TeamplayDeveloperAccount",
+
+    "complianceArtifact": "shl:complianceArtifact",
+    "fdaCybersecurity": "shl:fdaCybersecurity",
+    "privacyByDesign": "shl:privacyByDesign",
+    "securityScanned": "shl:securityScanned"
+  }
+}

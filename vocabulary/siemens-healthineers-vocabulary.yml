@@ -1,0 +1,131 @@
+name: Siemens Healthineers Vocabulary
+description: Domain vocabulary for the Siemens Healthineers digital surface — teamplay digital health platform,
+  Digital Marketplace, syngo.via OpenApps, Frontier Development Kit, and the Varian-derived cancer-care software
+  portfolio. Captures the entities, platforms, integration capabilities, and clinical/operational concepts a
+  partner application needs to model when integrating with the Siemens Healthineers ecosystem.
+url: https://raw.githubusercontent.com/api-evangelist/siemens-healthineers/refs/heads/main/vocabulary/siemens-healthineers-vocabulary.yml
+created: '2026-05-23'
+modified: '2026-05-23'
+tags:
+- Healthcare
+- Medical Imaging
+- Cancer Care
+- DICOM
+- Digital Health
+- Teamplay
+
+platforms:
+- term: teamplay digital health platform
+  description: Cross-domain digital health platform for on-premise, on-edge, and cloud deployments. Hosts native
+    teamplay performance management applications and third-party partner applications distributed via the Digital
+    Marketplace.
+- term: Digital Marketplace
+  description: Curated catalog of Siemens Healthineers and partner applications available to healthcare providers
+    in 60+ countries. Applications are security-scanned and run in a privacy-by-design infrastructure.
+- term: syngo.via
+  description: Image-post-processing platform for diagnostic imaging. Hosts the OpenApps store and Frontier
+    research applications.
+- term: syngo.via OpenApps
+  description: Application platform inside syngo.via where third-party and Siemens Healthineers clinical and
+    research apps are installed from the Digital Marketplace.
+- term: syngo.via Frontier
+  description: Research program inside syngo.via for community-driven, study-grade post-processing apps built with
+    the Frontier Development Kit.
+- term: Frontier Development Kit
+  description: SDK for building syngo.via Frontier research applications. Can also be substituted with any other
+    programming environment.
+- term: teamplay receiver
+  description: On-premises agent that collects operational and clinical telemetry from imaging devices and
+    transmits it to the teamplay Cloud Platform.
+- term: Cios mobile C-arm
+  description: Siemens Healthineers mobile C-arm imaging systems that can locally host partner applications using
+    the same Digital Marketplace integration capabilities.
+
+teamplayApplications:
+- term: teamplay Insights
+  description: Analytics dashboards over operational, technical, and clinical data across the imaging fleet.
+- term: teamplay Dose
+  description: Monitors and benchmarks radiation dose across imaging fleets.
+- term: teamplay Usage
+  description: Analyzes fleet utilization and productivity metrics.
+- term: teamplay Protocols
+  description: Identifies best-practice scan protocols for workflow optimization.
+- term: teamplay Images
+  description: Secure access and peer sharing of imaging studies.
+- term: teamplay Fleet
+  description: 24/7 self-service portal for service, cybersecurity, and fleet management.
+- term: teamplay Contrast
+  description: Contrast agent management across imaging modalities.
+- term: teamplay X-ray Dashboard
+  description: Analyzes rejected images and imaging variances.
+
+cancerCareSoftware:
+- term: ARIA CORE
+  description: Modern oncology information system from the Varian portfolio.
+- term: ARIA CORE Mobile
+  description: Mobile companion to ARIA CORE.
+- term: ARIA CORE for Theranostics
+  description: ARIA CORE tier oriented to theranostic workflows.
+- term: ARIA Systemic Therapy Management
+  description: ARIA module for systemic (medical-oncology) therapy management.
+- term: ARIA Oncology Information System
+  description: Legacy oncology information system being superseded by ARIA CORE.
+- term: Noona
+  description: Patient engagement and digital symptom-tracking platform.
+- term: Eclipse
+  description: Treatment planning system for radiation oncology.
+- term: Velocity
+  description: Multi-modality treatment planning and adaptive replanning.
+- term: ARIA CORE Insights
+  description: Analytics layer over the ARIA CORE oncology data set.
+- term: FullScale Managed Services
+  description: Managed-services offering for cancer-care software operations.
+- term: MaximQA
+  description: Quality assurance software for radiation oncology.
+
+integrationCapabilities:
+- term: Single Sign-On
+  description: Partner applications can authenticate users with teamplay credentials.
+- term: Licensing
+  description: Programmatic entitlement validation and subscription provisioning.
+- term: User Roles and Permissions
+  description: Authorization context derived from the customer's teamplay tenancy.
+- term: teamplay Receiver Plug-in
+  description: Hook into the on-premises teamplay receiver to participate in data collection and transmission.
+- term: DICOM Image Access
+  description: Programmatic retrieval of DICOM studies and instances stored in teamplay.
+- term: Reports and Results Submission
+  description: Pushing customer-specific reports and clinical results back into teamplay.
+- term: Status Indicator Notifications
+  description: Publishing operational and processing status for partner applications.
+
+actors:
+- term: Healthcare Provider
+  description: Hospital, imaging center, oncology clinic, or laboratory consuming Siemens Healthineers solutions.
+- term: Solution Partner
+  description: Independent vendor publishing applications into the Digital Marketplace.
+- term: Researcher
+  description: Clinician or scientist building Frontier applications inside syngo.via.
+- term: Developer
+  description: Engineer holding a teamplay developer account who consumes APIs via the developer portal.
+- term: Patient
+  description: Individual whose imaging studies, dose records, and clinical results flow through the platform.
+
+deploymentSurfaces:
+- term: On-Premise
+  description: Customer-hosted deployment of the teamplay platform.
+- term: On-Edge
+  description: Edge deployment at the imaging device or modality level.
+- term: Cloud
+  description: Hosted teamplay Cloud Platform deployment.
+
+regulatoryConcepts:
+- term: DICOM
+  description: Digital Imaging and Communications in Medicine — the dominant medical imaging interoperability standard.
+- term: FDA Premarket Cybersecurity Guidance
+  description: US FDA requirements for cybersecurity documentation on medical devices, addressed by tools like
+    SHIELD-DAVE.
+- term: Privacy by Design
+  description: Engineering principle invoked by Siemens Healthineers for its marketplace infrastructure.
+- term: Security Vulnerability Scanning
+  description: Pre-publication scanning of all Digital Marketplace applications.

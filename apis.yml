@@ -283,9 +283,9 @@ common:
   url: https://devportal.us.api.teamplay.siemens-healthineers.com/
 - type: DeveloperPortal
   url: https://developer.frontier.api.teamplay.siemens-healthineers.com/
-- type: SignUp
+- type: Signup
   url: https://devportal.us.api.teamplay.siemens-healthineers.com/signup
-- type: SignIn
+- type: Login
   url: https://devportal.us.api.teamplay.siemens-healthineers.com/signin
 - type: Marketplace
   url: https://marketplace.teamplay.siemens.com/

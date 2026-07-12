@@ -277,6 +277,10 @@ apis:
   - type: GitHub
     url: https://github.com/Siemens-Healthineers/patch-clip
 common:
+- type: VulnerabilityDisclosure
+  url: security/siemens-healthineers-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/siemens-healthineers-domain-security.yml
 - type: Website
   url: https://www.siemens-healthineers.com/
 - type: DeveloperPortal

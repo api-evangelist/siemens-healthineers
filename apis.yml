@@ -71,6 +71,12 @@ apis:
   tags:
   - Licensing
   - Entitlements
+  - Subscription
+  - Teamplay
+  - Healthcare
+  tags_raw:
+  - Licensing
+  - Entitlements
   - Subscriptions
   - Teamplay
   - Healthcare
@@ -86,6 +92,13 @@ apis:
     customer's teamplay tenancy. Documented at the partner program level; spec gated to authenticated developers.
   humanURL: https://www.siemens-healthineers.com/en-us/digital-health-solutions/digital-marketplace-for-partners
   tags:
+  - Authorization
+  - User
+  - Roles
+  - Permissions
+  - Teamplay
+  - Healthcare
+  tags_raw:
   - Authorization
   - Users
   - Roles
@@ -125,6 +138,12 @@ apis:
   tags:
   - DICOM
   - Medical Imaging
+  - Image
+  - Teamplay
+  - Healthcare
+  tags_raw:
+  - DICOM
+  - Medical Imaging
   - Images
   - Teamplay
   - Healthcare
@@ -157,6 +176,11 @@ apis:
     status in the same operational view as native teamplay applications.
   humanURL: https://www.siemens-healthineers.com/en-us/digital-health-solutions/digital-marketplace-for-partners
   tags:
+  - Notification
+  - Status
+  - Teamplay
+  - Healthcare
+  tags_raw:
   - Notifications
   - Status
   - Operations
@@ -179,6 +203,12 @@ apis:
   - Research
   - Medical Imaging
   - Post-Processing
+  - Healthcare
+  tags_raw:
+  - SDK
+  - Research
+  - Medical Imaging
+  - Post-Processing
   - syngo.via
   - Healthcare
   properties:
@@ -194,6 +224,11 @@ apis:
     trialed commitment-free for 90 days.
   humanURL: https://www.siemens-healthineers.com/medical-imaging-it/syngo-carbon-products/openapps
   tags:
+  - Platform
+  - Application
+  - Medical Imaging
+  - Healthcare
+  tags_raw:
   - Platform
   - Applications
   - Medical Imaging
@@ -216,6 +251,11 @@ apis:
   tags:
   - Marketplace
   - Catalog
+  - Application
+  - Healthcare
+  tags_raw:
+  - Marketplace
+  - Catalog
   - Applications
   - Healthcare
   properties:
@@ -235,6 +275,12 @@ apis:
   - Kubernetes
   - Windows
   - Infrastructure
+  - Open-Source
+  - PowerShell
+  tags_raw:
+  - Kubernetes
+  - Windows
+  - Infrastructure
   - Open Source
   - PowerShell
   properties:
@@ -247,6 +293,12 @@ apis:
     under the FDA's premarket cybersecurity guidance.
   humanURL: https://github.com/Siemens-Healthineers/SHIELD-DAVE
   tags:
+  - Cybersecurity
+  - Medical Devices
+  - FDA Compliance
+  - Open-Source
+  - PHP
+  tags_raw:
   - Cybersecurity
   - Medical Devices
   - FDA Compliance
@@ -266,6 +318,13 @@ apis:
   - Diagnostics
   - Performance
   - Windows
+  - Open-Source
+  - C#
+  tags_raw:
+  - CLI
+  - Diagnostics
+  - Performance
+  - Windows
   - Open Source
   - C#
   properties:
@@ -278,6 +337,13 @@ apis:
     Frontier and syngo.via OpenApps stack.
   humanURL: https://github.com/Siemens-Healthineers/patch-clip
   tags:
+  - Machine-Learning
+  - Embeddings
+  - Medical Imaging
+  - Research
+  - Open-Source
+  - Python
+  tags_raw:
   - Machine Learning
   - Embeddings
   - Medical Imaging

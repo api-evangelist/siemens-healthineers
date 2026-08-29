@@ -10,6 +10,17 @@ description: Siemens Healthineers AG is a German medical technology company (XET
   and status indicator notifications. No public OpenAPI specifications are published; the API catalog and reference
   documentation sit behind teamplay developer account authentication.
 kind: contract
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown

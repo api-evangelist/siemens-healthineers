@@ -64,6 +64,12 @@ apis:
   humanURL: https://www.siemens-healthineers.com/en-us/digital-health-solutions/digital-marketplace-for-partners
   tags:
   - Authentication
+  - SSO
+  - Identity
+  - Teamplay
+  - Healthcare
+  tags_raw:
+  - Authentication
   - Single Sign-On
   - Identity
   - Teamplay

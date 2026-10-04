@@ -12,14 +12,21 @@ description: Siemens Healthineers AG is a German medical technology company (XET
 kind: contract
 deliveryModel:
   model: saas
-  open_source: false
+  license_evidence:
+    not_product:
+    - siemens-healthineers/etwanalyzer
+    - siemens-healthineers/k2s
+    - siemens-healthineers/patch-clip
+    - siemens-healthineers/shield-dave
+  open_source: unknown
   commercial: true
   callable_host: false
   label: Hosted service · you call their endpoint
-  confidence: medium
+  confidence: low
   source:
   - pricing
-  generated: '2026-08-28'
+  - repository-not-product
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: unknown
@@ -48,6 +55,7 @@ tags:
 - Healthcare IT
 - Medical Devices
 - Teamplay
+- Diagnostics
 segments:
 - Medical Imaging
 - Laboratory Diagnostics
@@ -292,7 +300,7 @@ apis:
   - Kubernetes
   - Windows
   - Infrastructure
-  - Open-Source
+  - Open Source
   - PowerShell
   tags_raw:
   - Kubernetes
@@ -300,6 +308,7 @@ apis:
   - Infrastructure
   - Open Source
   - PowerShell
+  - Open-Source
   properties:
   - type: GitHub
     url: https://github.com/Siemens-Healthineers/K2s
@@ -313,7 +322,7 @@ apis:
   - Cybersecurity
   - Medical Devices
   - FDA Compliance
-  - Open-Source
+  - Open Source
   - PHP
   tags_raw:
   - Cybersecurity
@@ -321,6 +330,7 @@ apis:
   - FDA Compliance
   - Open Source
   - PHP
+  - Open-Source
   properties:
   - type: GitHub
     url: https://github.com/Siemens-Healthineers/SHIELD-DAVE
@@ -335,7 +345,7 @@ apis:
   - Diagnostics
   - Performance
   - Windows
-  - Open-Source
+  - Open Source
   - C#
   tags_raw:
   - CLI
@@ -344,6 +354,7 @@ apis:
   - Windows
   - Open Source
   - C#
+  - Open-Source
   properties:
   - type: GitHub
     url: https://github.com/Siemens-Healthineers/ETWAnalyzer
@@ -354,11 +365,11 @@ apis:
     Frontier and syngo.via OpenApps stack.
   humanURL: https://github.com/Siemens-Healthineers/patch-clip
   tags:
-  - Machine-Learning
+  - Machine Learning
   - Embeddings
   - Medical Imaging
   - Research
-  - Open-Source
+  - Open Source
   - Python
   tags_raw:
   - Machine Learning
@@ -367,6 +378,8 @@ apis:
   - Research
   - Open Source
   - Python
+  - Machine-Learning
+  - Open-Source
   properties:
   - type: GitHub
     url: https://github.com/Siemens-Healthineers/patch-clip

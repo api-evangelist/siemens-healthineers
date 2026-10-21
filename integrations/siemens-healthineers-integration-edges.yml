@@ -132,6 +132,29 @@ edges:
     identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
   detected_by: sweep-medical-imaging-ihe.py
   first_seen: '2026-10-20'
+- partner_name: AdvaMedDx (members)
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.advamed.org/advameddx/members/
+  category: Diagnostics trade body member
+  contract_reference:
+    register: AdvaMedDx member list (advamed.org/advameddx/members)
+    standard: null
+    spec_file: null
+    role: advameddx-member
+    registered_name: Siemens Healthineers
+    matched_domain: siemens-healthineers.com
+    matched_by: domain
+    detected_by: sweep-ivd-diagnostics.py
+    detected: '2026-10-21'
+    listed_website: https://www.siemens-healthineers.com
+    signal_note: 'self-filed paid membership: listing alone = standard-participant; hand-reviewed'
+  detected_by: sweep-ivd-diagnostics.py
+  first_seen: '2026-10-21'
 generated: '2026-10-18'
 method: searched
 source:
@@ -142,3 +165,9 @@ checked:
 - https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices
 - https://connectathon-results.ihe.net/custom-search/
 - https://product-registry.ihe.net/
+- https://api.fda.gov/device/510k.json
+- https://api.fda.gov/device/pma.json
+- https://api.fda.gov/device/registrationlisting.json
+- https://ec.europa.eu/tools/eudamed/api/
+- https://www.accessdata.fda.gov/premarket/ftparea/clia_detail.zip
+- https://www.advamed.org/advameddx/members/

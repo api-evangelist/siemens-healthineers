@@ -136,3 +136,26 @@
     identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
   status: not-a-workflow
   arazzo: null
+- slug: siemens-healthineers-advameddx-members
+  label: AdvaMedDx (members)
+  partner_name: AdvaMedDx (members)
+  category: Diagnostics trade body member
+  type: register
+  channel: standard-directory
+  evidence: https://www.advamed.org/advameddx/members/
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: AdvaMedDx member list (advamed.org/advameddx/members)
+    standard: null
+    spec_file: null
+    role: advameddx-member
+    registered_name: Siemens Healthineers
+    matched_domain: siemens-healthineers.com
+    matched_by: domain
+    detected_by: sweep-ivd-diagnostics.py
+    detected: '2026-10-21'
+    listed_website: https://www.siemens-healthineers.com
+    signal_note: 'self-filed paid membership: listing alone = standard-participant; hand-reviewed'
+  status: not-a-workflow
+  arazzo: null

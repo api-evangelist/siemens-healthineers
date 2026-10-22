@@ -159,3 +159,54 @@
     signal_note: 'self-filed paid membership: listing alone = standard-participant; hand-reviewed'
   status: not-a-workflow
   arazzo: null
+- slug: siemens-healthineers-health-canada-medical-device-licence
+  label: Health Canada (Medical Device Licence)
+  partner_name: Health Canada (Medical Device Licence)
+  category: Canadian medical device licence
+  type: contract
+  channel: regulator-register
+  evidence: https://health-products.canada.ca/api/medical-devices/company/?id=187810&lang=en&type=json
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: Health Canada Medical Devices Active Licence Listing (MDALL) public API (health-products.canada.ca/api/medical-devices)
+    standard: Canada Medical Devices Regulations (SOR/98-282), Medical Device Licence
+    spec_file: null
+    role: licence-holder
+    registered_name: SIEMENS HEALTHINEERS AG
+    register_country: DE
+    register_id: https://health-products.canada.ca/api/medical-devices/company/?id=187810&lang=en&type=json
+    company_status: A
+    matched_domain: siemens-healthineers.com
+    matched_by: domain
+    certified_products:
+    - product: Health Canada Medical Device Licence, Class II
+      product_type: Class II
+      risk_class: 2
+      lapsed: false
+      first_issued: '2013-08-01'
+      conditional: false
+      licences_sample:
+      - BIOGRAPH ONE
+      - MAGNETOM ALTEA
+      - MAGNETOM FLOW.ELITE
+      - MAGNETOM LUMINA
+      - MAGNETOM SOLA
+    - product: Health Canada Medical Device Licence, Class III
+      product_type: Class III
+      risk_class: 3
+      lapsed: false
+      first_issued: '2026-07-10'
+      conditional: false
+      licences_sample:
+      - SOMATOM X.CEED
+      - SOMATOM X.CITE
+    signal_note: certified_products = one entry per device RISK CLASS licensed by Health Canada, lapsed when no
+      licence of that class is still issued (status I / D, no end date); licence names are a sample, licence and
+      device counts are context, never counted
+    detected_by: sweep-canada-medical-device-licensing.py
+    detected: '2026-10-22'
+    identity: wikidata Q472451 'Siemens Healthineers' P856 https://www.corporate.siemens-healthineers.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+  status: not-a-workflow
+  arazzo: null

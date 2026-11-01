@@ -1,4 +1,4 @@
-# Siemens Healthineers (siemens-healthineers)
+# Siemens Healthineers
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,156 +66,107 @@
 
 Siemens Healthineers AG is a German medical technology company (XETRA SHL) covering medical imaging, laboratory diagnostics, point-of-care testing, advanced therapies, and cancer care (following the April 2021 Varian Medical Systems acquisition for USD 16.4 billion). Its digital surface is anchored by the teamplay digital health platform, the Digital Marketplace, syngo.via OpenApps, and the Frontier Development Kit, with developer access offered through a gated teamplay developer portal that exposes APIs for single sign-on, licensing, user roles and permissions, the teamplay receiver plug-in, DICOM image access, customer-specific report submission, and status indicator notifications. No public OpenAPI specifications are published; the API catalog and reference documentation sit behind teamplay developer account authentication.
 
-**URL:** [Visit APIs.yml URL](https://raw.githubusercontent.com/api-evangelist/siemens-healthineers/refs/heads/main/apis.yml)
+**Areas:** Healthcare · Medical Imaging · Laboratory Diagnostics · Cancer Care · Radiation Oncology · DICOM · Digital Health · Healthcare IT · Medical Devices · Teamplay · Diagnostics
 
-## Scope
+## Siemens Healthineers on APIs.io
 
-- **Type:** Contract
-- **Position:** Consuming
-- **Access:** 3rd-Party
+Everything profiled for Siemens Healthineers is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/siemens-healthineers/](https://apis.io/providers/siemens-healthineers/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (14)
 
-Healthcare, Medical Imaging, Laboratory Diagnostics, Cancer Care, Radiation Oncology, DICOM, Digital Health, Healthcare IT, Medical Devices, Teamplay
+- [teamplay Single Sign-On API](https://apis.io/apis/siemens-healthineers/teamplay-single-sign-on-api/) — Authentication and identity federation surface that lets partner applications running on the teamplay digital health platform, syngo.via OpenApps, and Cios…
+- [teamplay Licensing API](https://apis.io/apis/siemens-healthineers/teamplay-licensing-api/) — Licensing management surface used by partner applications to validate, provision, and reconcile subscription entitlements within the teamplay Cloud Platform…
+- [teamplay User Roles and Permissions API](https://apis.io/apis/siemens-healthineers/teamplay-user-roles-permissions-api/) — User management surface that exposes user roles and permission assignments to partner applications on the teamplay digital health platform. Allows partner…
+- [teamplay Receiver Plug-in API](https://apis.io/apis/siemens-healthineers/teamplay-receiver-plugin-api/) — Plug-in surface for the teamplay receiver, the on-premises agent that collects operational and clinical telemetry from imaging devices and transmits it to…
+- [teamplay DICOM Image Access API](https://apis.io/apis/siemens-healthineers/teamplay-dicom-image-access-api/) — Imaging access surface enabling partner applications to retrieve DICOM studies and instances stored in the teamplay digital health platform. Supports the…
+- [teamplay Reports and Results Submission API](https://apis.io/apis/siemens-healthineers/teamplay-reports-results-api/) — Submission surface allowing partner applications to push customer-specific reports and clinical results back into the teamplay digital health platform so…
+- [teamplay Status Indicator Notifications API](https://apis.io/apis/siemens-healthineers/teamplay-status-notifications-api/) — Notification surface that lets partner applications publish status indicators (operational state, health, processing progress) into the teamplay digital…
+- [syngo.via Frontier Development Kit](https://apis.io/apis/siemens-healthineers/syngovia-frontier-development-kit/) — Research-oriented SDK that lets clinicians, researchers, and developers turn research ideas into deployable image-post-processing applications inside…
+- [syngo.via OpenApps Platform](https://apis.io/apis/siemens-healthineers/syngovia-openapps-platform/) — Application platform inside syngo.via that hosts third-party and Siemens Healthineers research and clinical apps distributed through the Digital…
+- [Siemens Healthineers Digital Marketplace](https://apis.io/apis/siemens-healthineers/digital-marketplace/) — Curated catalog distributing Siemens Healthineers and partner clinical and operational applications across the teamplay digital health platform, syngo.via…
+- [K2s Kubernetes Distribution for Windows Hosts](https://apis.io/apis/siemens-healthineers/k2s-kubernetes-distribution/) — Open-source Kubernetes distribution built specifically for Windows hosts, published from the Siemens-Healthineers GitHub org. Provides cluster lifecycle…
+- [SHIELD-DAVE Medical Device Cybersecurity Platform](https://apis.io/apis/siemens-healthineers/shield-dave/) — PHP-based platform from the Siemens-Healthineers GitHub org focused on medical device cybersecurity and US FDA compliance workflows. Provides automation for…
+- [ETWAnalyzer Command Line Tool](https://apis.io/apis/siemens-healthineers/etwanalyzer/) — C# command-line tool published by Siemens Healthineers for analyzing Event Tracing for Windows (ETW) capture files using a query syntax. Used in performance…
+- [Patch-CLIP Embedding Model](https://apis.io/apis/siemens-healthineers/patch-clip/) — Python research project from the Siemens-Healthineers GitHub org that extends the CLIP architecture with patch-level embeddings for image understanding.…
 
-## Segments
+### Published properties
 
-Medical Imaging, Laboratory Diagnostics, Cancer Care, Healthcare IT, Digital Health Platforms
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Timestamps
+#### JSON-LD (1)
 
-- **Created:** 2026-05-23
-- **Modified:** 2026-05-23
+Linked-data contexts for the provider's vocabulary.
 
-## APIs
+- [Siemens Healthineers Context](https://apis.io/jsonld/siemens-healthineers/siemens-healthineers-context/)
 
-### teamplay Single Sign-On API
-Authentication and identity federation surface that lets partner applications running on the teamplay digital health platform, syngo.via OpenApps, and Cios mobile C-arm systems sign users in using their teamplay credentials.
+#### Vocabulary (1)
 
-**Human URL:** [Digital Marketplace for Partners](https://www.siemens-healthineers.com/en-us/digital-health-solutions/digital-marketplace-for-partners)
+The provider's domain terms, defined.
 
-**Tags:** Authentication, Single Sign-On, Identity, Teamplay, Healthcare
+- [Siemens Healthineers Vocabulary](https://apis.io/vocabularies/siemens-healthineers/siemens-healthineers-vocabulary/)
 
-### teamplay Licensing API
-Licensing management surface used by partner applications to validate, provision, and reconcile subscription entitlements within the teamplay Cloud Platform and syngo.via OpenApps environments.
+#### Security (2)
 
-**Human URL:** [Digital Marketplace for Partners](https://www.siemens-healthineers.com/en-us/digital-health-solutions/digital-marketplace-for-partners)
+Authentication, trust centre, and vulnerability disclosure.
 
-**Tags:** Licensing, Entitlements, Subscriptions, Teamplay, Healthcare
+- [Siemens Healthineers Domain Security](https://apis.io/security/siemens-healthineers/siemens-healthineers-domain-security/)
+- [Siemens Healthineers Vulnerability Disclosure](https://apis.io/security/siemens-healthineers/siemens-healthineers-vulnerability-disclosure/)
 
-### teamplay User Roles and Permissions API
-User management surface that exposes user roles and permission assignments to partner applications on the teamplay digital health platform, so partner solutions can align in-application access control with the customer's teamplay tenancy.
+## Where to find this API
 
-**Human URL:** [Digital Marketplace for Partners](https://www.siemens-healthineers.com/en-us/digital-health-solutions/digital-marketplace-for-partners)
-
-**Tags:** Authorization, Users, Roles, Permissions, Teamplay, Healthcare
-
-### teamplay Receiver Plug-in API
-Plug-in surface for the teamplay receiver, the on-premises agent that collects operational and clinical telemetry from imaging devices and transmits it to the teamplay Cloud Platform.
-
-**Human URL:** [Digital Marketplace for Partners](https://www.siemens-healthineers.com/en-us/digital-health-solutions/digital-marketplace-for-partners)
-
-**Tags:** Data Collection, Telemetry, On-Premises Agent, Teamplay, Healthcare
-
-### teamplay DICOM Image Access API
-Imaging access surface enabling partner applications to retrieve DICOM studies and instances stored in the teamplay digital health platform, supporting secure peer sharing and processing use cases.
-
-**Human URL:** [Digital Marketplace for Partners](https://www.siemens-healthineers.com/en-us/digital-health-solutions/digital-marketplace-for-partners)
-
-**Tags:** DICOM, Medical Imaging, Images, Teamplay, Healthcare
-
-### teamplay Reports and Results Submission API
-Submission surface allowing partner applications to push customer-specific reports and clinical results back into the teamplay digital health platform.
-
-**Human URL:** [Digital Marketplace for Partners](https://www.siemens-healthineers.com/en-us/digital-health-solutions/digital-marketplace-for-partners)
-
-**Tags:** Reports, Results, Clinical Data, Teamplay, Healthcare
-
-### teamplay Status Indicator Notifications API
-Notification surface that lets partner applications publish status indicators (operational state, health, processing progress) into the teamplay digital health platform.
-
-**Human URL:** [Digital Marketplace for Partners](https://www.siemens-healthineers.com/en-us/digital-health-solutions/digital-marketplace-for-partners)
-
-**Tags:** Notifications, Status, Operations, Teamplay, Healthcare
-
-### syngo.via Frontier Development Kit
-Research-oriented SDK that lets clinicians, researchers, and developers turn research ideas into deployable image-post-processing applications inside syngo.via. Distributed through the Digital Marketplace and installed into syngo.via OpenApps.
-
-**Human URL:** [syngo.via Frontier](https://www.siemens-healthineers.com/digital-health-solutions/syngovia-frontier)
-
-**Tags:** SDK, Research, Medical Imaging, Post-Processing, syngo.via, Healthcare
-
-### syngo.via OpenApps Platform
-Application platform inside syngo.via that hosts third-party and Siemens Healthineers research and clinical apps distributed through the Digital Marketplace. Apps can be trialed commitment-free for 90 days.
-
-**Human URL:** [syngo.via OpenApps](https://www.siemens-healthineers.com/medical-imaging-it/syngo-carbon-products/openapps)
-
-**Tags:** Platform, Applications, Medical Imaging, syngo.via, Healthcare
-
-### Siemens Healthineers Digital Marketplace
-Curated catalog distributing Siemens Healthineers and partner clinical and operational applications across the teamplay digital health platform, syngo.via OpenApps, and Cios mobile C-arm systems. All applications are security-scanned and run inside the Healthineers privacy-by-design infrastructure. Available in 60+ countries.
-
-**Human URL:** [Digital Marketplace](https://www.siemens-healthineers.com/digital-health-solutions/digital-marketplace)
-
-**Base URL:** `https://marketplace.teamplay.siemens.com/`
-
-**Tags:** Marketplace, Catalog, Applications, Healthcare
-
-### K2s Kubernetes Distribution for Windows Hosts
-Open-source Kubernetes distribution built specifically for Windows hosts, published from the Siemens-Healthineers GitHub org.
-
-**Human URL:** [github.com/Siemens-Healthineers/K2s](https://github.com/Siemens-Healthineers/K2s)
-
-**Tags:** Kubernetes, Windows, Infrastructure, Open Source, PowerShell
-
-### SHIELD-DAVE Medical Device Cybersecurity Platform
-PHP-based platform focused on medical device cybersecurity and US FDA compliance workflows.
-
-**Human URL:** [github.com/Siemens-Healthineers/SHIELD-DAVE](https://github.com/Siemens-Healthineers/SHIELD-DAVE)
-
-**Tags:** Cybersecurity, Medical Devices, FDA Compliance, Open Source, PHP
-
-### ETWAnalyzer Command Line Tool
-C# command-line tool for analyzing Event Tracing for Windows (ETW) capture files using a query syntax.
-
-**Human URL:** [github.com/Siemens-Healthineers/ETWAnalyzer](https://github.com/Siemens-Healthineers/ETWAnalyzer)
-
-**Tags:** CLI, Diagnostics, Performance, Windows, Open Source, C#
-
-### Patch-CLIP Embedding Model
-Python research project extending the CLIP architecture with patch-level embeddings for image understanding.
-
-**Human URL:** [github.com/Siemens-Healthineers/patch-clip](https://github.com/Siemens-Healthineers/patch-clip)
-
-**Tags:** Machine Learning, Embeddings, Medical Imaging, Research, Open Source, Python
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.siemens-healthineers.com/)
-- [Developer Portal (US)](https://devportal.us.api.teamplay.siemens-healthineers.com/)
-- [Developer Portal (Frontier)](https://developer.frontier.api.teamplay.siemens-healthineers.com/)
-- [Sign Up](https://devportal.us.api.teamplay.siemens-healthineers.com/signup)
-- [Sign In](https://devportal.us.api.teamplay.siemens-healthineers.com/signin)
-- [Marketplace](https://marketplace.teamplay.siemens.com/)
-- [Partner Program](https://www.siemens-healthineers.com/en-us/digital-health-solutions/digital-marketplace-for-partners)
-- [Digital Health Platform (teamplay)](https://www.siemens-healthineers.com/digital-health-solutions/digital-solutions-overview/service-line-managment-solutions/teamplay)
-- [GitHub Org](https://github.com/Siemens-Healthineers)
-- [Press](https://www.siemens-healthineers.com/press)
-- [Investor Relations](https://www.siemens-healthineers.com/investor-relations)
-- [Vocabulary](vocabulary/siemens-healthineers-vocabulary.yml)
-- [JSON-LD Context](json-ld/siemens-healthineers-context.jsonld)
 
-## Notable Absences
+## API Evangelist rating
 
-- No public OpenAPI / Swagger specifications — the API catalog is gated behind a teamplay developer account at `devportal.us.api.teamplay.siemens-healthineers.com`.
-- No public SDKs in language package registries from the Siemens-Healthineers GitHub org. The 13 public repos are mostly upstream contributions (SW360, fossology, NUnit) plus internal tooling (K2s, SHIELD-DAVE, ETWAnalyzer).
-- No public pricing page for teamplay or Digital Marketplace partner subscriptions.
-- No public status page for the teamplay digital health platform.
-- No public changelog or RSS feed for API or platform releases.
-- No webhooks documentation publicly visible.
-- No published rate-limit policy.
-- The Frontier Development Kit is referenced but not distributed via a public download or package registry — access is gated through the syngo.via Frontier program.
+**Kin Score 14.7** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Maintainers
+| Facet | Score |
+|---|---|
+| Discoverability | 63.4 |
+| Contract quality | 10.7 |
+| Contract governance | 13.6 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 6.6 |
 
-- Kin Lane (kin@apievangelist.com)
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.3** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/siemens-healthineers/](https://apis.io/providers/siemens-healthineers/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Siemens Healthineers: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/siemens-healthineers/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
